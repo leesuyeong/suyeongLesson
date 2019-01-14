@@ -1,4 +1,5 @@
 import React, { Component } from 'react'; // 리액트 컴퍼넌트를 생성하기 위해서는 React 패키지를 import 해야한다.
+import './Card.css';
 
 class Card extends Component {
   // 컴퍼넌트의 뷰딴을 렌더링하는 기본 메서드 render

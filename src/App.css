@@ -1,9 +1,0 @@
-#app .card {
-  display: flex;
-  border: 1px solid red;
-}
-
-#app .card img {
-  width: 100px;
-  height: 100px;
-}
