@@ -10,6 +10,10 @@
 
 레슨5. 함수형 컴퍼넌트
 
+레슨6. Children
+
+레슨7. react-router
+
 ## 설치 방법
 
 1. `git clone https://github.com/khsily/suyeongLesson.git`

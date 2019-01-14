@@ -1,0 +1,20 @@
+.youtube-list {
+    display: flex;
+}
+.youtube-list .youtube-list-image {
+    width:168px;
+    height:94px;
+}
+.youtube-list .youtube-list-detail {
+    margin-left: 5px;
+}
+.youtube-list .youtube-list-title {
+    font-size: 15px;
+    margin:0;
+    margin-bottom: 10px;
+}
+.youtube-list-nickname, .youtube-list-count {
+    display: block;
+    font-size: 12px;
+
+}

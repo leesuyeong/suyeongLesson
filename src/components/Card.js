@@ -7,7 +7,7 @@ class Card extends Component {
     return (
       <div className="card"> {/* class 의 경우에는 자바스크립트 class 문법과 겹치므로 className으로 사용한다 */}
         {/* this.props 로 부모컴퍼넌트로부터 전달바은 프로퍼티들에 접근할 수 있다, */}
-        <img src={this.props.image} />
+        <img src={this.props.image} alt="card"/>
         <p>{this.props.text}</p>
       </div>
     );
