@@ -22,7 +22,7 @@ class LikeButton extends Component {
         // 버튼에 클릭 이벤트 등록
         onClick={this.onLikeButtonClick.bind(this)}>
         {/* this.state 로 state값에 접근 가능 */}
-        {String(this.state.like ? '좋아요' : '싫어요 :(')}
+        {this.state.like ? '좋아요' : '싫어요 :('}
       </button>
     );
   }

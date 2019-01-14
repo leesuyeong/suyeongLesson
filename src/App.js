@@ -3,6 +3,7 @@ import './App.css';
 
 import Card from './components/Card';
 import LikeButton from './components/LikeButton';
+import NameInput from './components/NameInput';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           image="https://homepages.cae.wisc.edu/~ece533/images/cat.png"
           text="설명33333333" />
         <LikeButton />
+        <NameInput/>
       </div>
     );
   }
